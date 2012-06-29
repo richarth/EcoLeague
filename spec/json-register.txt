@@ -1,0 +1,55 @@
+expects:
+
+{
+    "command": "register",
+    "args": {
+        "name": "albert",
+        "email": "albert.einstein@gmail.com",
+        "mobile": "07993 123456",
+        "geolocation": {
+            "lat": 57758,
+            "lon": 356789
+        },
+        "fuels": [
+            {
+                "gas": {
+                    "supplier": "britishgas",
+                    "units": "cuft"
+                }
+            },
+            {
+                "electricity": {
+                    "supplier": "britishgas",
+                    "units": "kWh"
+                }
+            },
+            {
+                "oil": {
+                    "units": "l"
+                }
+            },
+            {
+                "coal": {
+                    "units": "kg"
+                }
+            }
+        ],
+        "cars": [
+            {
+                "fuel": "petrol",
+                "size": "medium"
+            },
+            {
+                "fuel": "diesel",
+                "size": "large"
+            }
+        ]
+    }
+}
+
+returns:
+
+{
+  "status","ok",
+  "user_key":"vbhjkl;kjhgh"
+}

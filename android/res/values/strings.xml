@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">EcoLeague</string>
+    <string name="name_label">Name</string>
+    <string name="email_label">Email</string>
+    <string name="mobile_label">Mobile</string>
+    <string name="fuels_label">Fuels</string>
+    <string name="gas">Gas</string>
+    <string name="electric">Electric</string>
+    <string name="oil">Oil</string>
+    <string name="coal">Coal</string>
+    <string name="fuels_description">Which fuel types do you use in your home?</string>
+    <string name="car_1">Car 1</string>
+    <string name="car_2">Car 2</string>
+    <string name="car_3">Car 3</string>
+    <string name="car_4">Car 4</string>
+    <string name="car_5">Car 5</string>
+    <string name="fuel_type">Fuel Type</string>
+    <string name="size">Size</string>
+    <string name="add_car">Add car</string>
+    <string name="tandcs">You agree to our terms and conditions</string>
+    <string name="submit">Submit</string>
+    <string name="privacy_policy_description">View our privacy policy http://www.ecoleague.co.uk</string>
+    <string-array name="gas_units_array">
+        <item>Cubic meters</item>
+        <item>Cubic feet</item>
+        <item>Killowatt hours</item>
+        <item>Gas bill</item>
+    </string-array>
+    <string-array name="gas_supplier_array">
+        <item>Eon</item>
+        <item>Edf</item>
+        <item>British Gas</item>
+    </string-array>
+    <string-array name="electric_supplier_array">
+        <item>Eon</item>
+        <item>Edf</item>
+        <item>British Gas</item>
+    </string-array>
+    <string-array name="oil_units_array">
+        <item>Litres</item>
+        <item>Gallons</item>
+    </string-array>
+    <string-array name="fuel_types">
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Hybrid</item>
+        <item>LPG</item>
+    </string-array>
+    <string-array name="car_sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="registerUrl">http://virtual-techno.co.uk:9988</string>
+</resources>

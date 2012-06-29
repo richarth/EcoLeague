@@ -1,0 +1,63 @@
+expects:
+
+{
+    "command": "submit",
+    "args": {
+        "user_key": "51c3dbe52f1d4c0ead38f5fd748429eb",
+        "date": "2012-06-27",
+        "body": {
+            "fuels": [
+                {
+                    "gas": 123456
+                },
+                {
+                    "electricity": 987609
+                },
+                {
+                    "oil": 67890
+                },
+                {
+                    "coal": 345678
+                }
+            ],
+            "cars": [
+                {
+                    "fuel": 345,
+                    "odometer": 987654
+                },
+                {
+                    "fuel": 3456,
+                    "odometer": 45678
+                }
+            ],
+            "public_transport": [
+                {
+                    "type": "bus",
+                    "distance": 456
+                },
+                {
+                    "type": "train",
+                    "distance": 789
+                },
+                {
+                    "type": "air_domestic",
+                    "distance": 1000
+                },
+                {
+                    "type": "air_continental",
+                    "distance": 3000
+                },
+                {
+                    "type": "air_international",
+                    "distance": 4000
+                }
+            ]
+        }
+    }
+}
+
+returns:
+
+{
+  "status","ok"
+}

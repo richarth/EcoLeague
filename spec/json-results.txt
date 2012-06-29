@@ -1,0 +1,169 @@
+expects:
+
+{
+  "command": "results",
+  "args"" {
+      "user_key": "sdfghjklkjhgfdghj"
+   }
+}
+
+returns:
+
+{
+    "energy": [
+        {
+            "rank": 1,
+            "username": "albert",
+            "score": 1000
+        },
+        {
+            "rank": 2,
+            "username": "betty",
+            "score": 1000
+        },
+        {
+            "rank": 3,
+            "username": "charles",
+            "score": 1000
+        },
+        {
+            "rank": 4,
+            "username": "daniel",
+            "score": 1000
+        },
+        {
+            "rank": 5,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 6,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 7,
+            "username": "fred",
+            "score": 1000
+        },
+        {
+            "rank": 8,
+            "username": "george",
+            "score": 1000
+        },
+        {
+            "rank": 9,
+            "username": "harold",
+            "score": 1000
+        },
+        {
+            "rank": 10,
+            "username": "ian",
+            "score": 1000
+        }
+    ],
+    "carbon": [
+        {
+            "rank": 1,
+            "username": "albert",
+            "score": 1000
+        },
+        {
+            "rank": 2,
+            "username": "betty",
+            "score": 1000
+        },
+        {
+            "rank": 3,
+            "username": "charles",
+            "score": 1000
+        },
+        {
+            "rank": 4,
+            "username": "daniel",
+            "score": 1000
+        },
+        {
+            "rank": 5,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 6,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 7,
+            "username": "fred",
+            "score": 1000
+        },
+        {
+            "rank": 8,
+            "username": "george",
+            "score": 1000
+        },
+        {
+            "rank": 9,
+            "username": "harold",
+            "score": 1000
+        },
+        {
+            "rank": 10,
+            "username": "ian",
+            "score": 1000
+        }
+    ],
+    "cost": [
+        {
+            "rank": 1,
+            "username": "albert",
+            "score": 1000
+        },
+        {
+            "rank": 2,
+            "username": "betty",
+            "score": 1000
+        },
+        {
+            "rank": 3,
+            "username": "charles",
+            "score": 1000
+        },
+        {
+            "rank": 4,
+            "username": "daniel",
+            "score": 1000
+        },
+        {
+            "rank": 5,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 6,
+            "username": "ellen",
+            "score": 1000
+        },
+        {
+            "rank": 7,
+            "username": "fred",
+            "score": 1000
+        },
+        {
+            "rank": 8,
+            "username": "george",
+            "score": 1000
+        },
+        {
+            "rank": 9,
+            "username": "harold",
+            "score": 1000
+        },
+        {
+            "rank": 10,
+            "username": "ian",
+            "score": 1000
+        }
+    ]
+}

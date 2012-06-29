@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+		<!-- Date -->
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Date" />
+		    <EditText
+		        android:id="@+id/editTextDate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="01.01.2012"/>
+		</LinearLayout>
+		<!--     Header House -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="House"/>
+	    </LinearLayout>
+		<!--     electricity  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/elec" />
+	        <EditText
+		        android:id="@+id/editTextElectrcity"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="elek"/>
+		    <TextView
+		        android:id="@+id/editTextElectricityUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="kWh" />
+		</LinearLayout>
+		<!-- 	gas -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/gas" />
+	        <EditText
+		        android:id="@+id/editTextGas"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="gas" />
+		    <TextView
+		        android:id="@+id/editTextGasUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="cubic metres" />
+		</LinearLayout>
+		<!--     coal  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+	        <EditText
+		        android:id="@+id/editTextCoal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Coal"/>
+		    <TextView
+		        android:id="@+id/editTextCoalUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="kg" />
+		</LinearLayout>
+		<!--     oil  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+	        <EditText
+		        android:id="@+id/editTextOil"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="elek"/>
+		    <TextView
+		        android:id="@+id/editTextOilUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="gallons" />
+		</LinearLayout>
+		<!--     Header Cars -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Cars" />
+	    </LinearLayout>
+		<!--     Car 1  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/car_1" />
+	        <EditText
+		        android:id="@+id/editTextCar1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="car 1" />
+	        <TextView
+		        android:id="@+id/editTextCar1Unit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>
+		<!-- 	car 2 -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/car_2" />
+	        <EditText
+		        android:id="@+id/editTextCar2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="car 2" />
+	        <TextView
+		        android:id="@+id/editTextCar2Unit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>
+		<!-- 	car 3 -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/car_3" />
+	        <EditText
+		        android:id="@+id/editTextCar3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="car 3" />
+	        <TextView
+		        android:id="@+id/editTextCar3Unit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>	
+		<!-- 	car 4 -->
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/car_4" />
+	        <EditText
+		        android:id="@+id/editTextCar4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="car 4" />
+	        <TextView
+		        android:id="@+id/editTextCar4Unit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>	
+		<!--     Header public transport -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Public transport"/>
+		</LinearLayout>
+		<!--     Bus  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/bus" />
+	        <EditText
+		        android:id="@+id/editTextBus"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="train"/>
+		    <TextView
+		        android:id="@+id/editTextBusUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>
+		<!--     Train  -->
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/train" />
+	        <EditText
+		        android:id="@+id/editTextTrain"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="bus"/>
+		    <TextView
+		        android:id="@+id/editTextTrainUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>
+		<!--     Header plane -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_launcher" />
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Plane"/>
+		</LinearLayout>
+		<!--     Plane Domestic -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/plane_uk" />
+	        <EditText
+		        android:id="@+id/editTextPlaneDomestic"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="plain domestic"/>
+		    <TextView
+		        android:id="@+id/editTextPlaneDomesticUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Miles" />
+		</LinearLayout>
+		<!--     Plane short internacional  -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/plane_eu" />
+	        <EditText
+		        android:id="@+id/editTextPlaneShortIntenational"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="plane short intenational"/>
+		    <TextView
+		        android:id="@+id/editTextPlaneShortIntenationalUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="km" />
+		</LinearLayout>
+		<!--     Plane long internacional  -->
+	    <LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/plane_world" />
+	        <EditText
+		        android:id="@+id/editTextPlaneLongIntenational"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="plane long intenational"/>
+		    <TextView
+		        android:id="@+id/editTextPlaneLongtIntenationalUnit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="km" />
+		</LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:gravity="right" >
+    	    <Button
+		        android:id="@+id/buttonSubmit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Submit" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
