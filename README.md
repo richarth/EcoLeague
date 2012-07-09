@@ -1,10 +1,8 @@
 ## EcoLeague API
 
-endpoint: http://virtual-techno.co.uk:9988
-
-test tools: http://virtual-techno.co.uk/ecoleague/test.php (requires password)
-
-homepage: http://virtual-techno.co.uk/ecoleague
+[endpoint](http://virtual-techno.co.uk:9988)
+[test tools](http://virtual-techno.co.uk/ecoleague/test.php) (requires password)
+[homepage](http://virtual-techno.co.uk/ecoleague)
 
 # Registration API
 
